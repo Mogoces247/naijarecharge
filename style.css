@@ -306,6 +306,34 @@ footer .container {
 /* Responsive Design */
 @media (min-width: 768px) {
 
+.links{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    z-index: 100;
+    background-color: #29323c;
+    transition: all 0.5s ease-in-out;
+}
+
+.links li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.links li{margin-top: 40px;}
+.links li{padding: 10px;}
+.open{display: block;}
+.close{display: block;}
+
+#check:checked ~ .links{right: 0;}
 
 
     

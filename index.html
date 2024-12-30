@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naija Recharge - Buy Data & Airtime Online</title>
     <link rel="stylesheet" href="style.css">  <!-- Link to your CSS file -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   <!--     fontawesome icons -->
 </head>
 <body>
 
@@ -12,6 +13,7 @@
         <div class="container">
             <h1>Naija Recharge</h1>
             <nav>
+                <input type="checkbox" id="check" class="check-toggle">
                 <ul>
                      <li><a href="#" id="login-button">Login</a></li>
                      <li><a href="#" id="signup-button">Sign Up</a></li>
@@ -19,8 +21,10 @@
                     <li><a href="#">Data</a></li>
                     <li><a href="#">Airtime</a></li>
                     <li><a href="#">Contact</a></li>
-
+                           <label for="check" class="close"><i class="fa-solid fa-xmark"></i></label>
                 </ul>
+
+                 <label for="check" class="open"><i class="fa-solid fa-bars"></i></label>
             </nav>
         </div>
     </header>
